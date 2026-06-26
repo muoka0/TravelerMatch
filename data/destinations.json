@@ -1,0 +1,607 @@
+[
+    {
+      "country": "United States",
+      "data": [
+        {"city":"New York City","climate":"temperate","budget_level":"$$$"},
+        {"city":"Los Angeles","climate":"mediterranean","budget_level":"$$$"},
+        {"city":"Chicago","climate":"continental","budget_level":"$$$"},
+        {"city":"Santa Fe","climate":"semi-arid","budget_level":"$$"},
+        {"city":"Asheville","climate":"temperate","budget_level":"$$"}
+      ]
+    },
+    {
+      "country": "Canada",
+      "data": [
+        {"city":"Toronto","climate":"continental","budget_level":"$$$"},
+        {"city":"Vancouver","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Montreal","climate":"continental","budget_level":"$$$"},
+        {"city":"Banff","climate":"alpine","budget_level":"$$$"},
+        {"city":"Halifax","climate":"oceanic","budget_level":"$$"}
+      ]
+    },
+    {
+      "country": "Mexico",
+      "data": [
+        {"city":"Mexico City","climate":"subtropical highland","budget_level":"$$"},
+        {"city":"Cancún","climate":"tropical","budget_level":"$$$"},
+        {"city":"Guadalajara","climate":"subtropical","budget_level":"$$"},
+        {"city":"Oaxaca City","climate":"tropical highland","budget_level":"$$"},
+        {"city":"San Cristóbal de las Casas","climate":"cool highland","budget_level":"$"}
+      ]
+    },
+    {
+      "country": "Brazil",
+      "data": [
+        {"city":"Rio de Janeiro","climate":"tropical","budget_level":"$$$"},
+        {"city":"São Paulo","climate":"subtropical","budget_level":"$$$"},
+        {"city":"Salvador","climate":"tropical","budget_level":"$$"},
+        {"city":"Manaus","climate":"equatorial","budget_level":"$$"},
+        {"city":"Paraty","climate":"tropical coastal","budget_level":"$$"}
+      ]
+    },
+    {
+      "country": "Argentina",
+      "data": [
+        {"city":"Buenos Aires","climate":"temperate","budget_level":"$$"},
+        {"city":"Mendoza","climate":"semi-arid","budget_level":"$$"},
+        {"city":"Córdoba","climate":"temperate","budget_level":"$$"},
+        {"city":"Ushuaia","climate":"subpolar","budget_level":"$$$"},
+        {"city":"Bariloche","climate":"alpine","budget_level":"$$$"}
+      ]
+    },
+    {
+        "country": "Chile",
+        "data": [
+        {"city":"Santiago","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Valparaíso","climate":"oceanic","budget_level":"$$"},
+        {"city":"Punta Arenas","climate":"subpolar","budget_level":"$$$"},
+        {"city":"San Pedro de Atacama","climate":"arid desert","budget_level":"$$"},
+        {"city":"Puerto Varas","climate":"oceanic","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Peru",
+        "data": [
+        {"city":"Lima","climate":"desert coastal","budget_level":"$$"},
+        {"city":"Cusco","climate":"highland","budget_level":"$$"},
+        {"city":"Arequipa","climate":"semi-arid","budget_level":"$"},
+        {"city":"Iquitos","climate":"tropical rainforest","budget_level":"$$"},
+        {"city":"Huaraz","climate":"alpine","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Colombia",
+        "data": [
+        {"city":"Bogotá","climate":"cool highland","budget_level":"$$"},
+        {"city":"Medellín","climate":"subtropical","budget_level":"$$"},
+        {"city":"Cartagena","climate":"tropical coastal","budget_level":"$$$"},
+        {"city":"Salento","climate":"temperate highland","budget_level":"$"},
+        {"city":"Minca","climate":"tropical mountain","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Ecuador",
+        "data": [
+        {"city":"Quito","climate":"highland","budget_level":"$$"},
+        {"city":"Guayaquil","climate":"tropical","budget_level":"$$"},
+        {"city":"Cuenca","climate":"temperate highland","budget_level":"$"},
+        {"city":"Baños","climate":"tropical mountain","budget_level":"$"},
+        {"city":"Montañita","climate":"tropical coastal","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Uruguay",
+        "data": [
+        {"city":"Montevideo","climate":"temperate","budget_level":"$$"},
+        {"city":"Punta del Este","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Colonia del Sacramento","climate":"temperate","budget_level":"$$"},
+        {"city":"Rocha","climate":"coastal temperate","budget_level":"$"},
+        {"city":"Piriápolis","climate":"coastal temperate","budget_level":"$"}
+        ]
+    },
+    
+    {
+        "country": "United Kingdom",
+        "data": [
+        {"city":"London","climate":"temperate oceanic","budget_level":"$$$"},
+        {"city":"Edinburgh","climate":"cool oceanic","budget_level":"$$$"},
+        {"city":"Manchester","climate":"oceanic","budget_level":"$$"},
+        {"city":"Bath","climate":"temperate","budget_level":"$$"},
+        {"city":"York","climate":"temperate","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Ireland",
+        "data": [
+        {"city":"Dublin","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Galway","climate":"oceanic","budget_level":"$$"},
+        {"city":"Cork","climate":"oceanic","budget_level":"$$"},
+        {"city":"Killarney","climate":"oceanic","budget_level":"$$"},
+        {"city":"Dingle","climate":"oceanic coastal","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "France",
+        "data": [
+        {"city":"Paris","climate":"temperate","budget_level":"$$$"},
+        {"city":"Lyon","climate":"continental","budget_level":"$$"},
+        {"city":"Nice","climate":"mediterranean","budget_level":"$$$"},
+        {"city":"Annecy","climate":"alpine","budget_level":"$$"},
+        {"city":"Bordeaux","climate":"oceanic","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Spain",
+        "data": [
+        {"city":"Madrid","climate":"continental","budget_level":"$$"},
+        {"city":"Barcelona","climate":"mediterranean","budget_level":"$$$"},
+        {"city":"Seville","climate":"hot mediterranean","budget_level":"$$"},
+        {"city":"Granada","climate":"semi-arid","budget_level":"$$"},
+        {"city":"San Sebastián","climate":"oceanic","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Italy",
+        "data": [
+        {"city":"Rome","climate":"mediterranean","budget_level":"$$$"},
+        {"city":"Milan","climate":"continental","budget_level":"$$$"},
+        {"city":"Florence","climate":"temperate","budget_level":"$$$"},
+        {"city":"Bologna","climate":"humid subtropical","budget_level":"$$"},
+        {"city":"Matera","climate":"semi-arid","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Germany",
+        "data": [
+        {"city":"Berlin","climate":"temperate oceanic","budget_level":"$$$"},
+        {"city":"Munich","climate":"continental","budget_level":"$$$"},
+        {"city":"Hamburg","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Heidelberg","climate":"temperate","budget_level":"$$"},
+        {"city":"Dresden","climate":"continental","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Netherlands",
+        "data": [
+        {"city":"Amsterdam","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Rotterdam","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Utrecht","climate":"oceanic","budget_level":"$$"},
+        {"city":"Maastricht","climate":"temperate oceanic","budget_level":"$$"},
+        {"city":"Giethoorn","climate":"oceanic rural","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Belgium",
+        "data": [
+        {"city":"Brussels","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Bruges","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Antwerp","climate":"oceanic","budget_level":"$$$"},
+        {"city":"Ghent","climate":"oceanic","budget_level":"$$"},
+        {"city":"Dinant","climate":"temperate","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Switzerland",
+        "data": [
+        {"city":"Zurich","climate":"continental","budget_level":"$$$"},
+        {"city":"Geneva","climate":"continental","budget_level":"$$$"},
+        {"city":"Lucerne","climate":"alpine","budget_level":"$$$"},
+        {"city":"Interlaken","climate":"alpine","budget_level":"$$$"},
+        {"city":"Zermatt","climate":"alpine","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Austria",
+        "data": [
+        {"city":"Vienna","climate":"continental","budget_level":"$$$"},
+        {"city":"Salzburg","climate":"alpine","budget_level":"$$$"},
+        {"city":"Innsbruck","climate":"alpine","budget_level":"$$$"},
+        {"city":"Hallstatt","climate":"alpine","budget_level":"$$$"},
+        {"city":"Graz","climate":"continental","budget_level":"$$"}
+        ]
+    },
+    
+    {
+        "country": "Japan",
+        "data": [
+        {"city":"Tokyo","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Kyoto","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Osaka","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Nara","climate":"humid subtropical","budget_level":"$$"},
+        {"city":"Hakone","climate":"subtropical highland","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "South Korea",
+        "data": [
+        {"city":"Seoul","climate":"temperate","budget_level":"$$$"},
+        {"city":"Busan","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Incheon","climate":"temperate","budget_level":"$$$"},
+        {"city":"Jeju City","climate":"subtropical","budget_level":"$$$"},
+        {"city":"Gyeongju","climate":"temperate","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "China",
+        "data": [
+        {"city":"Beijing","climate":"continental","budget_level":"$$$"},
+        {"city":"Shanghai","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Guangzhou","climate":"subtropical","budget_level":"$$$"},
+        {"city":"Chengdu","climate":"humid subtropical","budget_level":"$$"},
+        {"city":"Hangzhou","climate":"humid subtropical","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Thailand",
+        "data": [
+        {"city":"Bangkok","climate":"tropical","budget_level":"$$"},
+        {"city":"Chiang Mai","climate":"tropical highland","budget_level":"$"},
+        {"city":"Phuket","climate":"tropical","budget_level":"$$$"},
+        {"city":"Krabi","climate":"tropical coastal","budget_level":"$$$"},
+        {"city":"Pai","climate":"tropical mountain","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Vietnam",
+        "data": [
+        {"city":"Hanoi","climate":"subtropical","budget_level":"$"},
+        {"city":"Ho Chi Minh City","climate":"tropical","budget_level":"$$"},
+        {"city":"Da Nang","climate":"tropical coastal","budget_level":"$$"},
+        {"city":"Hoi An","climate":"tropical coastal","budget_level":"$"},
+        {"city":"Sapa","climate":"highland","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Indonesia",
+        "data": [
+        {"city":"Jakarta","climate":"tropical","budget_level":"$$"},
+        {"city":"Bali","climate":"tropical","budget_level":"$$$"},
+        {"city":"Yogyakarta","climate":"tropical","budget_level":"$"},
+        {"city":"Ubud","climate":"tropical rainforest","budget_level":"$$$"},
+        {"city":"Lombok","climate":"tropical coastal","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Malaysia",
+        "data": [
+        {"city":"Kuala Lumpur","climate":"tropical","budget_level":"$$"},
+        {"city":"George Town","climate":"tropical","budget_level":"$"},
+        {"city":"Langkawi","climate":"tropical coastal","budget_level":"$$$"},
+        {"city":"Kota Kinabalu","climate":"tropical rainforest","budget_level":"$$"},
+        {"city":"Malacca","climate":"tropical","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Singapore",
+        "data": [
+        {"city":"Singapore City","climate":"tropical","budget_level":"$$$"},
+        {"city":"Marina Bay","climate":"tropical","budget_level":"$$$"},
+        {"city":"Sentosa","climate":"tropical coastal","budget_level":"$$$"},
+        {"city":"Chinatown","climate":"tropical","budget_level":"$$$"},
+        {"city":"Little India","climate":"tropical","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Philippines",
+        "data": [
+        {"city":"Manila","climate":"tropical","budget_level":"$"},
+        {"city":"Cebu","climate":"tropical","budget_level":"$"},
+        {"city":"Davao","climate":"tropical","budget_level":"$"},
+        {"city":"Palawan","climate":"tropical coastal","budget_level":"$$"},
+        {"city":"Baguio","climate":"highland","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "India",
+        "data": [
+        {"city":"New Delhi","climate":"subtropical","budget_level":"$"},
+        {"city":"Mumbai","climate":"tropical","budget_level":"$$"},
+        {"city":"Jaipur","climate":"semi-arid","budget_level":"$"},
+        {"city":"Varanasi","climate":"subtropical","budget_level":"$"},
+        {"city":"Udaipur","climate":"semi-arid","budget_level":"$"}
+        ]
+    },
+    
+    {
+        "country": "South Africa",
+        "data": [
+        {"city":"Cape Town","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Johannesburg","climate":"subtropical highland","budget_level":"$$"},
+        {"city":"Durban","climate":"tropical coastal","budget_level":"$$"},
+        {"city":"Stellenbosch","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Knysna","climate":"temperate coastal","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Kenya",
+        "data": [
+        {"city":"Nairobi","climate":"tropical highland","budget_level":"$"},
+        {"city":"Mombasa","climate":"tropical coastal","budget_level":"$"},
+        {"city":"Nakuru","climate":"tropical highland","budget_level":"$"},
+        {"city":"Maasai Mara","climate":"savanna","budget_level":"$$"},
+        {"city":"Lamu","climate":"tropical coastal","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Tanzania",
+        "data": [
+        {"city":"Dar es Salaam","climate":"tropical","budget_level":"$"},
+        {"city":"Arusha","climate":"tropical highland","budget_level":"$"},
+        {"city":"Zanzibar City","climate":"tropical coastal","budget_level":"$$"},
+        {"city":"Moshi","climate":"tropical highland","budget_level":"$"},
+        {"city":"Mwanza","climate":"tropical","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Morocco",
+        "data": [
+        {"city":"Marrakech","climate":"semi-arid","budget_level":"$$"},
+        {"city":"Casablanca","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Fez","climate":"semi-arid","budget_level":"$"},
+        {"city":"Chefchaouen","climate":"mountain mediterranean","budget_level":"$"},
+        {"city":"Essaouira","climate":"coastal mediterranean","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Egypt",
+        "data": [
+        {"city":"Cairo","climate":"desert","budget_level":"$$"},
+        {"city":"Alexandria","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Luxor","climate":"desert","budget_level":"$$"},
+        {"city":"Aswan","climate":"hot desert","budget_level":"$"},
+        {"city":"Sharm El Sheikh","climate":"arid coastal","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Nigeria",
+        "data": [
+        {"city":"Lagos","climate":"tropical","budget_level":"$"},
+        {"city":"Abuja","climate":"tropical savanna","budget_level":"$"},
+        {"city":"Ibadan","climate":"tropical","budget_level":"$"},
+        {"city":"Port Harcourt","climate":"tropical rainforest","budget_level":"$"},
+        {"city":"Calabar","climate":"tropical coastal","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Ghana",
+        "data": [
+        {"city":"Accra","climate":"tropical","budget_level":"$"},
+        {"city":"Kumasi","climate":"tropical rainforest","budget_level":"$"},
+        {"city":"Cape Coast","climate":"tropical coastal","budget_level":"$"},
+        {"city":"Tamale","climate":"tropical savanna","budget_level":"$"},
+        {"city":"Takoradi","climate":"tropical coastal","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Ethiopia",
+        "data": [
+        {"city":"Addis Ababa","climate":"highland subtropical","budget_level":"$"},
+        {"city":"Lalibela","climate":"highland","budget_level":"$"},
+        {"city":"Bahir Dar","climate":"tropical highland","budget_level":"$"},
+        {"city":"Gondar","climate":"highland","budget_level":"$"},
+        {"city":"Hawassa","climate":"tropical highland","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Tunisia",
+        "data": [
+        {"city":"Tunis","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Sousse","climate":"mediterranean coastal","budget_level":"$$"},
+        {"city":"Sfax","climate":"semi-arid","budget_level":"$"},
+        {"city":"Djerba","climate":"arid coastal","budget_level":"$$"},
+        {"city":"Hammamet","climate":"mediterranean coastal","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Algeria",
+        "data": [
+        {"city":"Algiers","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Oran","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Constantine","climate":"semi-arid","budget_level":"$"},
+        {"city":"Annaba","climate":"mediterranean coastal","budget_level":"$"},
+        {"city":"Ghardaïa","climate":"desert","budget_level":"$"}
+        ]
+    },
+    
+    {
+        "country": "Australia",
+        "data": [
+        {"city":"Sydney","climate":"temperate","budget_level":"$$$"},
+        {"city":"Melbourne","climate":"temperate oceanic","budget_level":"$$$"},
+        {"city":"Brisbane","climate":"subtropical","budget_level":"$$$"},
+        {"city":"Hobart","climate":"oceanic cool","budget_level":"$$"},
+        {"city":"Cairns","climate":"tropical","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "New Zealand",
+        "data": [
+        {"city":"Auckland","climate":"temperate oceanic","budget_level":"$$$"},
+        {"city":"Wellington","climate":"windy oceanic","budget_level":"$$$"},
+        {"city":"Queenstown","climate":"alpine","budget_level":"$$$"},
+        {"city":"Rotorua","climate":"temperate geothermal","budget_level":"$$"},
+        {"city":"Dunedin","climate":"cool oceanic","budget_level":"$$"}
+        ]
+    },
+    
+    {
+        "country": "Turkey",
+        "data": [
+        {"city":"Istanbul","climate":"temperate oceanic","budget_level":"$$"},
+        {"city":"Ankara","climate":"continental","budget_level":"$"},
+        {"city":"Cappadocia","climate":"semi-arid","budget_level":"$$"},
+        {"city":"Izmir","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Antalya","climate":"mediterranean coastal","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Greece",
+        "data": [
+        {"city":"Athens","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Thessaloniki","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Santorini","climate":"mediterranean island","budget_level":"$$$"},
+        {"city":"Mykonos","climate":"mediterranean island","budget_level":"$$$"},
+        {"city":"Crete","climate":"mediterranean island","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Portugal",
+        "data": [
+        {"city":"Lisbon","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Porto","climate":"oceanic","budget_level":"$$"},
+        {"city":"Faro","climate":"mediterranean","budget_level":"$$"},
+        {"city":"Sintra","climate":"oceanic forested","budget_level":"$$"},
+        {"city":"Madeira","climate":"subtropical island","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Poland",
+        "data": [
+        {"city":"Warsaw","climate":"continental","budget_level":"$$"},
+        {"city":"Kraków","climate":"continental","budget_level":"$$"},
+        {"city":"Gdańsk","climate":"oceanic","budget_level":"$$"},
+        {"city":"Wrocław","climate":"continental","budget_level":"$$"},
+        {"city":"Zakopane","climate":"alpine","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Czech Republic",
+        "data": [
+        {"city":"Prague","climate":"continental","budget_level":"$$"},
+        {"city":"Brno","climate":"continental","budget_level":"$"},
+        {"city":"Český Krumlov","climate":"continental","budget_level":"$$"},
+        {"city":"Karlovy Vary","climate":"continental spa","budget_level":"$$"},
+        {"city":"Olomouc","climate":"continental","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Hungary",
+        "data": [
+        {"city":"Budapest","climate":"continental","budget_level":"$$"},
+        {"city":"Debrecen","climate":"continental","budget_level":"$"},
+        {"city":"Szeged","climate":"continental","budget_level":"$"},
+        {"city":"Pécs","climate":"continental","budget_level":"$"},
+        {"city":"Eger","climate":"continental","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Romania",
+        "data": [
+        {"city":"Bucharest","climate":"continental","budget_level":"$"},
+        {"city":"Cluj-Napoca","climate":"continental","budget_level":"$"},
+        {"city":"Brașov","climate":"alpine","budget_level":"$"},
+        {"city":"Sibiu","climate":"continental","budget_level":"$"},
+        {"city":"Sighișoara","climate":"continental medieval","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Croatia",
+        "data": [
+        {"city":"Zagreb","climate":"continental","budget_level":"$$"},
+        {"city":"Dubrovnik","climate":"mediterranean coastal","budget_level":"$$$"},
+        {"city":"Split","climate":"mediterranean coastal","budget_level":"$$$"},
+        {"city":"Zadar","climate":"mediterranean coastal","budget_level":"$$"},
+        {"city":"Rovinj","climate":"mediterranean coastal","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Japan",
+        "data": [
+        {"city":"Tokyo","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Kyoto","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Osaka","climate":"humid subtropical","budget_level":"$$$"},
+        {"city":"Nara","climate":"humid subtropical","budget_level":"$$"},
+        {"city":"Hakone","climate":"subtropical highland","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Nepal",
+        "data": [
+        {"city":"Kathmandu","climate":"subtropical highland","budget_level":"$"},
+        {"city":"Pokhara","climate":"subtropical highland","budget_level":"$"},
+        {"city":"Lumbini","climate":"subtropical","budget_level":"$"},
+        {"city":"Bhaktapur","climate":"subtropical highland","budget_level":"$"},
+        {"city":"Chitwan","climate":"tropical","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Sri Lanka",
+        "data": [
+        {"city":"Colombo","climate":"tropical","budget_level":"$"},
+        {"city":"Kandy","climate":"tropical highland","budget_level":"$"},
+        {"city":"Galle","climate":"tropical coastal","budget_level":"$$"},
+        {"city":"Sigiriya","climate":"tropical","budget_level":"$"},
+        {"city":"Ella","climate":"tropical highland","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Bangladesh",
+        "data": [
+        {"city":"Dhaka","climate":"tropical","budget_level":"$"},
+        {"city":"Chittagong","climate":"tropical coastal","budget_level":"$"},
+        {"city":"Sylhet","climate":"tropical highland","budget_level":"$"},
+        {"city":"Cox’s Bazar","climate":"tropical coastal","budget_level":"$"},
+        {"city":"Rajshahi","climate":"tropical","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Maldives",
+        "data": [
+        {"city":"Malé","climate":"tropical island","budget_level":"$$$"},
+        {"city":"Maafushi","climate":"tropical island","budget_level":"$$$"},
+        {"city":"Addu City","climate":"tropical island","budget_level":"$$$"},
+        {"city":"Hulhumalé","climate":"tropical island","budget_level":"$$$"},
+        {"city":"Fuvahmulah","climate":"tropical island","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "United Arab Emirates",
+        "data": [
+        {"city":"Dubai","climate":"desert","budget_level":"$$$"},
+        {"city":"Abu Dhabi","climate":"desert","budget_level":"$$$"},
+        {"city":"Sharjah","climate":"desert","budget_level":"$$$"},
+        {"city":"Ras Al Khaimah","climate":"desert coastal","budget_level":"$$$"},
+        {"city":"Al Ain","climate":"desert oasis","budget_level":"$$"}
+        ]
+    },
+    {
+        "country": "Saudi Arabia",
+        "data": [
+        {"city":"Riyadh","climate":"desert","budget_level":"$$"},
+        {"city":"Jeddah","climate":"desert coastal","budget_level":"$$"},
+        {"city":"Mecca","climate":"desert","budget_level":"$$"},
+        {"city":"Medina","climate":"desert","budget_level":"$$"},
+        {"city":"AlUla","climate":"desert archaeological","budget_level":"$$$"}
+        ]
+    },
+    {
+        "country": "Jordan",
+        "data": [
+        {"city":"Amman","climate":"semi-arid","budget_level":"$"},
+        {"city":"Petra","climate":"desert","budget_level":"$$"},
+        {"city":"Aqaba","climate":"desert coastal","budget_level":"$$"},
+        {"city":"Wadi Rum","climate":"desert","budget_level":"$$"},
+        {"city":"Jerash","climate":"mediterranean","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Uzbekistan",
+        "data": [
+        {"city":"Tashkent","climate":"continental","budget_level":"$"},
+        {"city":"Samarkand","climate":"semi-arid","budget_level":"$"},
+        {"city":"Bukhara","climate":"desert","budget_level":"$"},
+        {"city":"Khiva","climate":"desert","budget_level":"$"},
+        {"city":"Nukus","climate":"desert","budget_level":"$"}
+        ]
+    },
+    {
+        "country": "Kazakhstan",
+        "data": [
+        {"city":"Almaty","climate":"continental mountain","budget_level":"$"},
+        {"city":"Astana","climate":"continental extreme","budget_level":"$"},
+        {"city":"Shymkent","climate":"continental","budget_level":"$"},
+        {"city":"Aktau","climate":"desert coastal","budget_level":"$"},
+        {"city":"Turkistan","climate":"semi-arid","budget_level":"$"}
+        ]
+    }
+]
