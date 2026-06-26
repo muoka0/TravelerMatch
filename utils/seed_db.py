@@ -1,5 +1,7 @@
+import json
 from sqlalchemy.orm import Session
 from db.queries.write import insert_destinations, insert_interests
+from db.schema import Interest, Destination, DestinationInterest
 
 def _load_data(path: str):
     with open(path, "r") as f:

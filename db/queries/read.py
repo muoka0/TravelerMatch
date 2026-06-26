@@ -24,3 +24,21 @@ def get_destinations_by_constraints(session: Session, budget_level: str, climate
         )
         .all()
     )
+
+def get_unique_climates(session: Session) -> list[str]:
+    climates = (
+        session.query(Destination.climate)
+        .distinct()
+        .all()
+    )
+
+    # SQLAlchemy returns tuples like [("temperate",), ("arid",)]
+    return [c[0] for c in climates]
+
+def database_is_empty(session: Session) -> bool:
+    """
+    Returns True if the database has not been seeded yet.
+    Uses the destinations table as the indicator.
+    """
+
+    return session.query(Destination).first() is None

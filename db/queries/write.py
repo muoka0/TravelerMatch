@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Session
 from db.schema import Interest, Destination, DestinationInterest, CachedSearch
 
-def insert_interest(session: Session, interest_name: str):
+def insert_interests(session: Session, interest_name: str):
     """Insert a new interest into the interests table during database initialization"""
     
     interest = Interest(interest=interest_name)
@@ -10,7 +10,7 @@ def insert_interest(session: Session, interest_name: str):
 
     return interest
 
-def insert_destination(session: Session, destination_data: dict):
+def insert_destinations(session: Session, destination_data: dict):
     """Insert a new destination into the destinations table during database initialization"""
     
     destination = Destination(**destination_data)

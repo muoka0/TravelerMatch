@@ -1,3 +1,4 @@
+from db.schema import Destination
 
 def score_destinations(destinations: list[Destination], interests: list[str]):
     set_of_interest = set(interests)
