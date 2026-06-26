@@ -1,6 +1,7 @@
 import unittest
 from unittest.mock import patch, MagicMock 
 from services.gemini_client import map_interest_to_tags, rank_destinations 
+from utils.prompts import INTEREST_MAPPING_PROMPT, RANKING_PROMPT
 
 class TestMapInterestToTags(unittest.TestCase):
     @patch("services.gemini_client.client")
@@ -13,6 +14,17 @@ class TestMapInterestToTags(unittest.TestCase):
         self.assertIsInstance(result, list)
         self.assertIn("food", result)
         self.assertIn("temples", result)
+
+        #now verify prompt sent to gemini
+        kwargs = mock_client.models.generate_content.call_args.kwargs
+
+        self.assertEqual(kwargs["model"], "gemini-2.5-flash")
+        self.assertEqual(
+            kwargs["contents"],
+            INTEREST_MAPPING_PROMPT.format(
+                user_input="I love eating and visiting temple"
+            )
+        )
 
     @patch("services.gemini_client.client")
     def test_tags_are_lowercase(self, mock_client):
@@ -78,6 +90,22 @@ class TestRankDestinations(unittest.TestCase):
 
         result = rank_destinations(self.user_inputs, self.options_data)
         self.assertIsInstance(result, list)
+
+        #now verify the prompt sent to gemini
+        kwargs = mock_client.models.generate_content.call_args.kwargs
+
+        expected_prompt = RANKING_PROMPT.format(
+            budget="$$",
+            climate="tropical",
+            interests="food, beaches",
+            options_data=(
+                "- Bali: High: 89.0°F, Low: 69.3°F, Daily Rain: 1.8mm\n"
+                "- Bangkok: High: 95.0°F, Low: 75.0°F, Daily Rain: 0.5mm"
+            )
+        )
+        self.assertEqual(kwargs["model"], "gemini-2.5-flash")
+        self.assertEqual(kwargs["contents"], expected_prompt)
+        
 
     @patch("services.gemini_client.client")
     def test_returns_city_and_reasoning(self, mock_client):
