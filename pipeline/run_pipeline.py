@@ -156,15 +156,20 @@ def run_pipeline(
             # Store in cache
         # --------------------------------------------------
 
-        cache_search_result(
-            session=session,
+        insert_cached_search(
+            session,
             query_hash=query_hash,
-            results=recommendations
+            start_date=start_date,
+            end_date=end_date,
+            budget_level=budget_level,
+            climate=climate,
+            raw_user_input=user_inputs,
+            normalized_interests=interests,
+            gemini_output=recommendations
         )
 
         return recommendations
 
     finally:
         session.close()
-
 

@@ -15,17 +15,26 @@ def main():
     )
 
     # Handle validation errors
+    # Display recommendations safely
+    print("\n--- Top Matches ---\n")
+
+    # unwrap DB object if needed
+    if hasattr(recommendations, "gemini_output"):
+        recommendations = recommendations.gemini_output
+
+    # Handle validation errors
     if isinstance(recommendations, dict) and not recommendations.get("success", True):
         print(f"\nError: {recommendations['message']}")
         return
-    
-    # Display recommendations
-    print("\n--- Top Matches ---\n")
 
-    for recommendation in recommendations:
-        print(f"{recommendation['city']}: {recommendation['reasoning']}")
+    # FIX: normalize single DB object → list
+    if not isinstance(recommendations, list):
+        recommendations = recommendations.gemini_output
 
-    print("\nDone.")
+    for r in recommendations:
+        print(f"• {r['city']}\n  {r['reasoning']}\n")
+
+    print("Done.\n")
 
 if __name__ == "__main__":
     main()

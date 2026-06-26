@@ -13,7 +13,7 @@ def get_cached_search_by_hash(session: Session, query_hash: str):
         .filter(CachedSearch.query_hash == query_hash)\
         .first()
 
-def get_destinations_by_constraints(session: Session, budget_level: str, climate: str, interest_name: str):
+def get_destinations_by_constraints(session: Session, budget_level: str, climate: str):
     """Retrieve destinations matching budget, climate, and interest constraints"""
     
     return (
