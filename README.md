@@ -13,7 +13,7 @@ The system integrates a multi-stage recommendation pipeline that combines a stru
 6. **User-Friendly CLI:** Simple terminal interface that guides users through trip planning with suggested climates and interests.
 
 
-## 🎯 How It Works 🌍
+## 🎯 How It Works 
 1. **Frontend (CLI):** Collects user constraints such as budget, travel dates, preferred climate, and interests. Includes a custom ASCII art interface for an engaging user experience.
 2. **Backend:** Built with Python, manages the recommendation pipeline, API calls, response caching, and database operations.
 3. **API Integrations:** Integrates the Open-Meteo API for real-time weather forecasts and the Google Gemini API to normalize user interests and generate personalized destination recommendations.
